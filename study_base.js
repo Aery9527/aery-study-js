@@ -25,6 +25,15 @@ for (let b of [9, 5, 2, 7]) {
     console.log("for b : " + b);
 }
 
+let obj = {a: 1, b: 2, c: 3};
+for (let key in obj) {
+    console.log("for key : " + key);
+}
+
+[5, 6, 7, 8].forEach((e) => {
+    console.log("for e : " + e);
+});
+
 
 console.log("---------------------------------------- 展開運算子 (Spread operator) ")
 

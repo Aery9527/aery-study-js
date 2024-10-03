@@ -8,3 +8,6 @@
     - `__proto__` 是物件(包含函數)的一個隱式屬性, 其指向該物件的原型, 也就是依賴該值建立原型鏈
     - `prototype` 是每一個函數(尤其是構造函數, constructor function)在被定義時, 會自動具有一個 `prototype` 屬性, 其指向一個物件, 當這個函數來創建一個新物件時,
       該新物件的 `__proto__` 屬性會指向該函數的 `prototype` (感覺就像 factory pattern 的概念)
+- 非同步
+  - js 是單線程, 非同步則是藉由事件循環(event loop)來實現
+  - [study code](./study_async.js)
